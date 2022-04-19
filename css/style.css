@@ -1,0 +1,148 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.body_container{
+  background: radial-gradient(circle, rgba(0,212,255,1) 15%, rgba(38,52,158,1) 64%, rgba(30,30,135,1) 100%);
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  background-image: linear-gradient(120deg, #020024 5%, #090979 35%, #00d4ff 100%);
+
+
+/*
+background-color: #8BC6EC;
+background-image: linear-gradient(45deg, #8BC6EC 0%, #9599E2 52%, #c61417 93%);
+
+background-color: #0600b7;
+background-image: linear-gradient(180deg, #0600b7 21%, #f6ff00 65%, #0600b7 75%, #02011a 100%);
+*/
+}
+.navbar{
+  transition: all .25s ease-in-out;
+
+}
+
+.foot_page{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #09093e00;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
+
+}
+
+
+
+/*Container*/
+
+.Home_container{
+  height: 100vh;
+
+}
+
+.Experience_container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px 0px;
+  margin: 0px auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.about_container{
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px 0px;
+  margin: 0px auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+.Work_container{
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px 0px;
+  margin: 0px auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.More_container{
+  display: flex;
+  flex-direction: column;
+  padding: 32px 48px 0px;
+  margin: 0px auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+
+}
+.card_container{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  max-width: 250px;
+  margin: 3px;
+  padding: 2px;
+  text-align: center;
+}
+.card_container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.303);
+}
+
+.image_size{
+  margin-top: 20px;
+  margin-bottom: 31px;
+}
+
+
+.title-content{
+  padding: 1.5rem;
+  margin: 1.5rem;
+  filter: blur(4px);
+  animation: fade-in .5s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+
+.top-button {
+  right: 20px;
+  width: 58px;
+  bottom: 30px;
+  cursor: pointer;
+  height: 58px;
+  display: none;
+  z-index: 100;
+  position: fixed;
+  background: none;
+  border: none;
+  outline: none;
+  transition: 1.5s;
+}
